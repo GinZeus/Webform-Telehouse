@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webform-Telehouse</title>
     <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+   
     <link rel="stylesheet" href="style-form.css">
+
 </head>
 <body>
     <header>
@@ -94,17 +96,195 @@
             </div>
             <div class="col-1"></div>
         </div>
-        <div class="content-2 row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                test
-            </div>
-            <div class="col-1"></div>
-        </div>
 
+        <!-- content 2 -->
+
+            <div class="row content-2">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h4>Thông tin người phê duyệt</h4>
+                    <ul class="row form">
+                        <li class="col-6">Họ và tên
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Chức vụ
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Đơn vị/Cơ quan (*)
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Email
+                            <input  class="form-control">
+                        </li>
+                    </ul>
+                    <h6>Đăng ký sử dụng điện thoại/laptop</h6>
+                    <ul class="form form-dki-phone">
+                        <li>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            Có sử dụng
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            Không sử dụng
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Cam kết không sử dụng để quay/chụp hình ảnh tại Data Center
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>  
+            </div>
+
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h4>Khu vực đăng kí truy cập</h4>
+                    <p>Tích chọn những khu vực muốn đăng ký truy cập. Bạn có thể chọn 1 hoặc nhiều.</p>
+                    <ul class="form row">
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Phòng họp (sảnh lễ tân)
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Khu vực khách hàng
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Phòng NOC
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Phòng tape
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Phòng server
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Phòng Network
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Hành lang
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Phòng UPS
+                        </li>
+                        <li class="col-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Tất cả
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="content-2 row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h4>Danh sách cán bộ tham gia và tài sản mang theo</h4>
+                    <p>Vui lòng nhập đầy đủ các thông tin bắt buộc (*) và ảnh được tải lên cần rõ ràng, không bị nhoè, mất chi tiết</p>
+                    <div class="heading-imformation">
+                        <div class="can-bo">
+                            <a href="#" class="trash-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16" style="    vertical-align: unset;">
+                                    <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                                  </svg>
+                            </a>
+                            <h6>Cán bộ 1</h6>
+                        </div>
+                        <a href="" class="badge rounded-pill bg-primary btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                                <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+                              </svg>
+                            Tải ảnh CCCD/Hộ chiếu
+                        </a>
+                    </div>
+                    <ul class="form row">
+                        <li class="col-6">Họ và tên (*)
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Tên phòng ban
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Số CMT/Hộ chiếu (*)
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Tài sản gửi lại
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-12">Ghi chú
+                            <input  class="form-control">
+                        </li>
+                    </ul>
+                    <div class="heading-imformation">
+                        <div class="can-bo">
+                            <a href="#" class="trash-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16" style="    vertical-align: unset;">
+                                    <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                                  </svg>
+                            </a>
+                            <h6>Cán bộ 2</h6>
+                        </div>
+                        <a href="" class="badge rounded-pill bg-primary btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                                <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+                              </svg>
+                            Tải ảnh CCCD/Hộ chiếu
+                        </a>
+                    </div>
+                    <ul class="form row">
+                        <li class="col-6">Họ và tên (*)
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Tên phòng ban
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Số CMT/Hộ chiếu (*)
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-6">Tài sản gửi lại
+                            <input  class="form-control">
+                        </li>
+                        <li class="col-12">Ghi chú
+                            <input  class="form-control">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h4>Thời gian truy cập và công việc</h4>
+                    <ul class="form">
+                        <li class="time">Thời gian vào
+                            <input type="date">
+                        </li>
+                        <li class="time">Thời gian ra
+                            <input type="date">
+                        </li>
+                        <li>Chi tiết công việc thực hiện
+                            <textarea class="form-control" rows="3"></textarea>
+                        </li>
+                        <li>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            Cần cán bộ Telehouse hỗ trợ trong quá trình vào/ra
+                        </li>
+                    </ul>
+                    <div class="dki-btn">
+                        <a href="" class="dki-btn badge rounded-pill">Điền lại thông tin</a>
+                        <a href="" class="dki-btn badge rounded-pill">Gửi lại thông tin</a>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
     </div>
 
-    <footer class="">
+    <footer>
         <div class="container-footer row">
             <div class="col-1">
 
@@ -196,9 +376,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-1">
-
-            </div>
+            <div class="col-1"></div>
         </div>
     </footer>
 </body>
