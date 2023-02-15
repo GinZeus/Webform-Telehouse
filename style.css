@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    display: flex;
+    list-style-type: none;
+}
+.RHeader{
+    display: flex;
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.text-logo{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 23px;
+    line-height: 26px;
+}
+li.laguage{
+    display: flex;
+    
+}
+.language-btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    position: relative;
+}
+.sub-lan{
+  
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color: black;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.language-btn:hover{
+    color: black;
+    background-color: white;
+}
+.language:hover .sub-lan{
+    display: block;
+}
+.col-1{
+    padding: 0;
+}
+/* content */
+.content{
+    background-image: url(./assets/image/R.png);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+.heading{
+    text-align: center;
+    color: white;
+    padding: 16px 0px;
+}
+.container-box{
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    border: 1px solid white;
+    border-radius:  24px;
+    padding: 32px 50px;
+}
+.heading-box{
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+.choice{
+    color: white;
+}
+.dki-btn{
+    
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* content - 2  */
+.content-2{
+    background-color: white;
+    width: 100%;
+}
+.text-content-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* footer */
+.container-footer{
+    padding: 20px 0px;
+}
+footer{
+    width: 100%;
+    background-color: #ccc;
+    height: auto;
+}
+.footer-logo{
+    display: flex;
+}
+.text-logo-footer{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 30px;
+}
+.footer-item{
+    list-style-type: none;
+}
+.footer-heading{
+    font-size: 25px;
+    font-weight: 600%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer-item-link{
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-list{
+    padding-left: 0;
+}
