@@ -84,6 +84,7 @@
     .sub-lan {
         padding: 5px 16px;
     }
+
     .text-content-2 {
         margin: 16px 0px;
     }
@@ -119,6 +120,14 @@
     }
     .col-4{
         width: 100%;
+    }
+
+     h5 {
+        font-size: 1rem;
+    }
+
+     h2 {
+        margin-top: 4rem;
     }
   
 }
