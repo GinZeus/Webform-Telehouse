@@ -149,6 +149,9 @@ li.laguage{
     flex-direction: column;
     justify-content: center;
 }
+.img-dki{
+    width: 40vw;
+}
 /* footer */
 .container-footer{
     padding: 20px 0px;
