@@ -1,0 +1,32 @@
+/* PC */
+@media (min-width : 1024px) {
+    
+}
+
+/* Tablet */
+@media (min-width : 740px) and (max-width: 1023px) {
+    .text-logo{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .logo-icon{
+        height: 16px;
+        display: flex;
+    }
+    .col-3{
+        width: 50%;
+    }
+    .content-trang-chu{
+        height: 60vh;
+    }
+    .content-2{
+        margin: 32px 0px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width : 740px) {
+    
+  
+}
