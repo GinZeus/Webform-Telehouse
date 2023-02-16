@@ -29,9 +29,30 @@ header{
     font-size: 23px;
     line-height: 26px;
 }
-li.laguage{
+#search-box{
     display: flex;
-    
+    background-color: #fff;
+    border-radius: 30px;
+}
+.search-text{
+    border: none;
+    outline: none;
+    background: none;
+    width: 0px;
+}
+.search-btn{
+    padding: 3px 7px;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+}
+#search-box:hover .search-text{
+    width: 200px;
+    padding-left: 10px;
+    transition: all 0.25s ease-in-out;
+}
+li.laguage{
+    display: flex; 
 }
 .language-btn{
     text-decoration: none;
@@ -41,7 +62,6 @@ li.laguage{
     position: relative;
 }
 .sub-lan{
-  
     list-style-type: none;
     display: none;
     position: absolute;
