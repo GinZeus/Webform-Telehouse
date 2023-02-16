@@ -12,6 +12,11 @@ header{
     display: flex;
     list-style-type: none;
 }
+.logo-icon{
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
 .RHeader{
     display: flex;
     list-style-type: none;
