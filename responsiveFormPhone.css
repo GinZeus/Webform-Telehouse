@@ -11,6 +11,62 @@
 /* Mobile */
 
 @media (max-width : 740px) {
+    .col-3{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-heading {
+        margin-bottom: 8px;
+    }
+
+    .container {
+           padding: 8px 8px 0 8px ;
+    }
+    .logo{
+        padding: 0px;
+    }
+
+    .logo-icon {
+        height: 16px;
+    }
+
+    .text-logo {
+        font-size: 16px;
+    }
+
+    .language-btn {
+         padding: 0px; 
+    }
+
+    header {
+        height: 44px;
+    }
+
+    #search-box:hover .search-text{
+        width: 0px;
+        padding-left: 0px;
+        transition: unset;
+    }
+
+    .search-btn{
+        padding: 0px 4px;
+    }
+
+    .language-btn { 
+        padding: 5px 17px !important;
+        font-size: 12px;
+    }
+
+    .sub-lan-btn{
+        font-size: 12px;
+    }
+
+    .sub-lan {
+        padding: 5px 16px;
+    }
+    
+    
     h3, h4{
         font-size: 18px;
     }
@@ -18,7 +74,7 @@
         font-size: 13px;
         line-height: 18px;
     }
-    li{
+    .form .col-6{
         font-size: 14px;
         line-height: 16px;
     }
