@@ -78,6 +78,14 @@ li.laguage{
     padding: 5px 20px;
     border-radius: 5px;
 }
+
+.sub-lan-btn{
+
+    color: white;
+    text-decoration: none;
+  
+}
+
 .language-btn:hover{
     color: black;
     background-color: white;
@@ -164,7 +172,7 @@ footer{
 }
 .footer-heading{
     font-size: 25px;
-    font-weight: 600%;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
