@@ -172,10 +172,10 @@ ul.form > li{
     justify-content: center;
     
 }
-.dki-btn .add-btn{
+.dki-btn-1 .add-btn{
     float: right;
 }
-.dki-btn{
+.dki-btn-1{
     border: 2px solid #143087;
     color: #143087;
     margin-top: 20px;
