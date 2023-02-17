@@ -111,6 +111,9 @@
     .dki-btn{
         padding: 10px 20px;
         font-size: 15px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .add-btn{
         padding: 8px 18px;
