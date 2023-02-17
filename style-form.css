@@ -76,6 +76,10 @@ li.laguage{
     padding: 5px 20px;
     border-radius: 5px;
 }
+.sub-lan-btn{
+    color: white;
+    text-decoration: none;
+}
 .language-btn:hover{
     color: black;
     background-color: white;
