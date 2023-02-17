@@ -52,7 +52,7 @@
     }
 
     .text-logo {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .language-btn {
@@ -70,7 +70,7 @@
     }
 
     .search-btn{
-        padding: 0px 4px;
+        padding: 0px 3px;
     }
 
     .language-btn { 
@@ -92,7 +92,7 @@
     .text-content-2 {
         margin: 16px 0px;
     }
-    
+
     .img-dki{
         width: 90vw;
     }
@@ -144,6 +144,10 @@
 
      h2 {
         margin-top: 4rem;
+    }
+
+    .content-trang-chu {
+        height: 100vh;
     }
   
 }
