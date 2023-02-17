@@ -68,7 +68,7 @@ li.laguage{
     position: relative;
 }
 .sub-lan{
-  
+    
     list-style-type: none;
     display: none;
     position: absolute;
@@ -80,10 +80,8 @@ li.laguage{
 }
 
 .sub-lan-btn{
-
     color: white;
     text-decoration: none;
-  
 }
 
 .language-btn:hover{
