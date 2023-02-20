@@ -30,6 +30,7 @@
 /* Mobile */
 
 @media (max-width : 740px) {
+
     .col-3{
         width: 100%;
         margin-bottom: 10px;
@@ -84,7 +85,10 @@
     .sub-lan {
         padding: 5px 16px;
     }
-
+    .content-trang-chu{
+        height: auto;
+        padding-bottom: 10px;
+    }
     .text-content-2 {
         margin: 16px 0px;
     }
@@ -116,8 +120,16 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .add-btn{
-        padding: 8px 18px;
+    .trash-btn{
+        padding: 1px 6px;
+    }
+    .trash-icon{
+        width: 14px;
+        height: 14px;
+    }
+    
+    .dki-btn-1{
+        padding: 5px 15px;
     }
     .col-6{
         width: 100%;
