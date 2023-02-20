@@ -63,6 +63,7 @@ li.laguage{
 .language-btn{
     text-decoration: none;
     color: white;
+    background-color: black;
     border: 1px solid #ccc;
     padding: 5px 20px;
     position: relative;
@@ -70,7 +71,7 @@ li.laguage{
 .sub-lan{
     
     list-style-type: none;
-    display: none;
+    display: block;
     position: absolute;
     background-color: black;
     margin-top: 10px;
@@ -84,12 +85,9 @@ li.laguage{
     text-decoration: none;
 }
 
-.language-btn:hover{
-    color: black;
-    background-color: white;
-}
-.language:hover .sub-lan{
-    display: block;
+
+.sub-lan-hiden{
+    display: none;
 }
 .col-1{
     padding: 0;
@@ -190,4 +188,12 @@ footer{
 
 .footer-list{
     padding-left: 0;
+}
+
+.hiden{
+    display: none;
+}
+
+textarea {
+    margin-top: 10px;
 }

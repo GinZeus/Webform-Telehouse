@@ -64,11 +64,12 @@ li.laguage{
     color: white;
     border: 1px solid #ccc;
     padding: 5px 20px;
+    background-color: black;
     position: relative;
 }
 .sub-lan{
     list-style-type: none;
-    display: none;
+    display: block;
     position: absolute;
     background-color: black;
     margin-top: 10px;
@@ -79,14 +80,19 @@ li.laguage{
 .sub-lan-btn{
     color: white;
     text-decoration: none;
+   
 }
-.language-btn:hover{
+
+.sub-lan-hiden{
+    display: none;
+}
+/* .language-btn:hover{
     color: black;
     background-color: white;
 }
 .language:hover .sub-lan{
     display: block;
-}
+} */
 .col-1{
     padding: 0;
 }
@@ -219,3 +225,6 @@ footer{
 .footer-list{
     padding-left: 0;
 }
+
+
+

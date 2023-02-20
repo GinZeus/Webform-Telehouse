@@ -33,8 +33,8 @@
                         </form>
                     </li>
                     <li class="language">
-                        <a href="" class="language-btn rounded-pill" >Language</a>
-                        <ul class="sub-lan">
+                        <button onclick="myFunction()" class="language-btn rounded-pill" >Language</button>
+                        <ul class="sub-lan-hiden" id="subLan">
                             <li ><a href="" class="sub-lan-btn">Tiếng Việt</a></li>
                             <li ><a href="" class="sub-lan-btn">English</a></li>
                         </ul>
@@ -393,6 +393,17 @@
         </div>
     </footer>
 
-    <script src="javascript.js"></script>
+    <script >
+   function myFunction(){
+    var formTrs = document.getElementById('subLan')
+    if(formTrs.className == 'sub-lan-hiden'){
+        formTrs.className = "sub-lan";
+    }else{
+        formTrs.className = "sub-lan-hiden";
+    }
+
+}
+
+    </script>
 </body>
 </html>
